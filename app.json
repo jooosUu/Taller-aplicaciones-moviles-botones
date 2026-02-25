@@ -23,7 +23,26 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ccc0e27f-a4f0-4fd9-8b87-8cd4cb1a1e9a"
+      }
+    },
+    "owner": "ing_josu",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ccc0e27f-a4f0-4fd9-8b87-8cd4cb1a1e9a"
     }
   }
 }
